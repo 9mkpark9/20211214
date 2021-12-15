@@ -18,9 +18,9 @@ exports.run = async (client, message) => {
       .setColor("BLUE")
       .setTimestamp()
       .setDescription(
-        "**Loop is" +
-          (queue.loop == true ? " Enabled " : " Disabled ") +
-        "for current song :white_check_mark: **"
+        "** 현재노래 루프 " +
+          (queue.loop == true ? " 활성화 " : " 비활성화 ") +
+        " :white_check_mark: **"
       )
   );
 };
