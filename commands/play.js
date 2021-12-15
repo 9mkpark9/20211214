@@ -15,10 +15,10 @@ exports.run = async (client, message, args) => {
 
   if (!channel) return error("음악을 재생하려면 음성 채널에 가입해야 합니다!");
 
-  if (!channel.permissionsFor(message.client.user).has("연결"))
+  if (!channel.permissionsFor(message.client.user).has("CONNECT"))
     return error("음성 채널에 가입할 수 있는 권한이 없습니다.");
 
-  if (!channel.permissionsFor(message.client.user).has("마이크"))
+  if (!channel.permissionsFor(message.client.user).has("SPEAK"))
     return error("음성 채널에서 말할 수 있는 권한이 없습니다.");
 
   const query = args.join(" ");
@@ -116,8 +116,8 @@ exports.run = async (client, message, args) => {
       }
       data.connection.on("연결 끊다", () => deletequeue(message.guild.id));
       const source = await ytdl(track.url, {
-        filter: "오디오 전용",
-        quality: "최고 오디오",
+        filter: "audioonly",
+        quality: "highestaudio",
         highWaterMark: 1 << 25,
         opusEncoded: true,
       });
