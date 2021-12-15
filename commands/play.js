@@ -122,8 +122,8 @@ exports.run = async (client, message, args) => {
         opusEncoded: true,
       });
       const player = data.connection
-        .play(source, { type: "작품" })
-        .on("끝내다", () => {
+        .play(source, { type: "opus" })
+        .on("finish", () => {
           var removed = data.queue.shift();
           if(data.loop == true){
             data.queue.push(removed)
