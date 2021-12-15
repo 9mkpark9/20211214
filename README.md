@@ -9,11 +9,11 @@
 ## Contact Me
 <img width="30" src="https://img.icons8.com/fluent/2x/discord-logo.png"> 
 
-- Nithish#6593
+- 
 
 <img width="30" src="https://img.icons8.com/fluent/2x/instagram-new.png"> 
 
-- nithish_codez
+- 
 
 ## Showcase <img width="20px" src="https://img.icons8.com/android/2x/camera.png" >
 <p align="center"><img src="https://nithish.is-inside.me/wAhyjaXg.png"></p>
