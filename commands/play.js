@@ -114,7 +114,7 @@ exports.run = async (client, message, args) => {
         message.guild.me.voice.channel.leave();
         return deletequeue(message.guild.id);
       }
-      data.connection.on("연결 끊다", () => deletequeue(message.guild.id));
+      data.connection.on("disconnect", () => deletequeue(message.guild.id));
       const source = await ytdl(track.url, {
         filter: "audioonly",
         quality: "highestaudio",
