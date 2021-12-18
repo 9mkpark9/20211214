@@ -825,7 +825,7 @@
     "html-to-text" "^5.1.1"
     "node-fetch" "^2.6.0"
 
-"m3u8stream@^0.8.3":
+"m3u8stream@^0.8.4":
   "integrity" "sha512-sco80Db+30RvcaIOndenX6E6oQNgTiBKeJbFPc+yDXwPQIkryfboEbCvXPlBRq3mQTCVPQO93TDVlfRwqpD35w=="
   "resolved" "https://registry.npmjs.org/m3u8stream/-/m3u8stream-0.8.4.tgz"
   "version" "0.8.4"
@@ -1389,11 +1389,11 @@
     "minimist" "~1.2.5"
     "node-fzf" "~0.5.1"
 
-"ytdl-core@^4.1.1":
-  "integrity" "sha512-6Jbp5RDhUEozlaJQAR+l8oV8AHsx3WUXxSyPxzE6wOIAaLql7Hjiy0ZM58wZoyj1YEenlEPjEqcJIjKYKxvHtQ=="
-  "resolved" "https://registry.npmjs.org/ytdl-core/-/ytdl-core-4.9.1.tgz"
-  "version" "4.9.1"
+"ytdl-core@^4.9.2":
+  "integrity" "sha512-aTlsvsN++03MuOtyVD4DRF9Z/9UAeeuiNbjs+LjQBAiw4Hrdp48T3U9vAmRPyvREzupraY8pqRoBfKGqpq+eHA=="
+  "resolved" "https://registry.npmjs.org/ytdl-core/-/ytdl-core-4.9.2.tgz"
+  "version" "4.9.2"
   dependencies:
-    "m3u8stream" "^0.8.3"
+    "m3u8stream" "^0.8.4"
     "miniget" "^4.0.0"
     "sax" "^1.1.3"
