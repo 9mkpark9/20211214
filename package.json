@@ -4,6 +4,9 @@
   "description": "Most Advanced open-source discord music bot, Made by NithishPravin",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "engines": {
     "node": "14.x"
   },
